@@ -53,9 +53,12 @@
 (helm-mode 1)
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
+(add-hook 'after-init-hook 'global-company-mode)
 
 (load-theme 'monokai t)
 
 (tool-bar-mode -1)
 (toggle-scroll-bar -1)
+
+(global-linum-mode t)
 
