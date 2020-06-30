@@ -39,6 +39,9 @@ exec nitrogen --restore
 # Redshift
 exec --no-startup-id redshift-gtk
 
+# Bluetooth
+exec --no-startup-id blueman-applet
+
 # i3-gaps stuff
 # Disable window titlebars
 for_window [class=".*"] border pixel 2
